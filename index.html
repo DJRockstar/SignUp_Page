@@ -9,18 +9,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 </head>
 <body>
-	<div class="spage-container">
-		<div class="logo-container">
-			<img class="image" src="company_logo.png">
-		</div>
-		<div class="form-container">
+	<div class="form-container">
+		<div>
+			<div>
+				<img class="image" src="company_logo.png">
+			</div>
 			<form class="demo-form">
 				<header>
 					<h1 class="signup-heading">Sign Up</h1>
 				</header>
 				<fieldset name="info" class="fieldset">
-					<label for="email" class="email">Email</label>
-						<input type="email" name="email" id="email" placeholder="foo@bar.com">
+					<label for="email" class="email" required>Email</label>
+						<input type="email" name="email" id="email" placeholder="foo@bar.com" required/>
 					<label for="password" class="password">Password</label>
 						<input type="password" name="password" id="password" placeholder="1234passw0rd">
 				</fieldset>
@@ -30,9 +30,10 @@
 			</form>
 			<span><a href="#" class="forgot-password">Forgot Password?</a></span>
 		</div>
-		<section class="already-member">
-			<span class="account">Already have an account? <a class="log-in" href="#">Log In</a></span>
-		</section>
-	</div>
+		<div class="already-member">
+			<p class="account">Already have an account? <a class="log-in" href="#">Log In</a>
+			</p>
+		</div>	
+	</div>	
 </body>
 </html>
