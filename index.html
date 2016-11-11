@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Page</title>
+	<meta charset="utf-8">
+	<meta name="description" content = "Thinkful's sign up page challenge">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+</head>
+<body>
+	<div class="spage-container">
+		<div class="logo-container">
+			<img class="image" src="company_logo.png">
+		</div>
+		<div class="form-container">
+			<form class="demo-form">
+				<header>
+					<h1 class="signup-heading">Sign Up</h1>
+				</header>
+				<fieldset name="info" class="fieldset">
+					<label for="email" class="email">Email</label>
+						<input type="email" name="email" id="email" placeholder="foo@bar.com">
+					<label for="password" class="password">Password</label>
+						<input type="password" name="password" id="password" placeholder="1234passw0rd">
+				</fieldset>
+				<fieldset name="button" class="fieldset">
+					<button type="submit" class="signup-button">Sign Up</button>
+				</fieldset>
+			</form>
+			<span><a href="#" class="forgot-password">Forgot Password?</a></span>
+		</div>
+		<section class="already-member">
+			<span class="account">Already have an account? <a class="log-in" href="#">Log In</a></span>
+		</section>
+	</div>
+</body>
+</html>

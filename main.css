@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Source Sans Pro', 'sans-serif';
+	background-color: #4d91d1;
+	font-weight: normal;
+}
+
+.image{
+	width: 180px;
+	height: 35px;
+	margin: 0 auto;
+	position: relative;
+	top: 70px;
+	left: 610px;
+}
+
+.form-container {
+	width: 400px;
+	padding: 0 40px;
+	height: 450px;
+	margin: 50px auto 0px;
+	border: 1px solid #fdfaec;
+	border-radius: 4px;
+	background-color: #fff;
+	text-align: left;
+	position: relative;
+	top: 50px;
+}
+
+.signup-heading {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#email,#password,.signup-button{
+	width: 320px;
+	padding: 15px;
+	border-radius: 4px;
+	position: relative;
+	left: -10px;
+}
+
+.email, .password {
+	position: relative;
+	left: -10px;
+}
+
+#email,#password {
+	border: 2px solid #ddf;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	background-color: #fdfaec;
+}
+
+#password {
+	margin-bottom: -15px;
+}
+
+.signup-button {
+	border: 2px solid lightyellow;
+	background-color: yellowgreen;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 570;
+}
+.fieldset {
+	border: 0px;
+	margin-top: 20px;
+}
+
+span { 
+	text-align: center;
+}
+
+.forgot-password{
+	color: #acc;
+	text-decoration: none;
+	position: relative;
+	left: 100px;
+}
+
+.account {
+	position: absolute;
+	left: 610px;
+	top: 610px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.log-in {
+	color: #fff;
+}
+
+.log-in:hover {
+	color: lightblue;
+}
+
+
+
+
+
+
+
+
+
